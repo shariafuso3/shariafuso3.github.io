@@ -5,5 +5,4 @@ hero_text: "<strong>We're Acme</strong>, we work for brands. But most importantl
 title: Hero
 
 ---
-<Hero :text="$page.frontmatter.hero_text" />
-<WorksList />
+<Hero :text="$page.frontmatter.hero_text" /> test <WorksList />
